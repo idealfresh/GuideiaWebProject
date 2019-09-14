@@ -35,3 +35,39 @@ body {
         display: none;
     }
 }
+
+/*own class for buttons*/
+#navbarSupportedContent > ul > .nav-item > .layout-navbar-item {
+    color: white;
+}
+
+#navbarSupportedContent > ul > .nav-item > .layout-navbar-item:hover {
+     color: #96ca2d;
+     text-decoration: wavy;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #428309 !important;
+}
+
+.card-body {
+    height: 300px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+#battery-image {
+    background-image: url('../images/productgrouplink/battery.jpg');
+}
+
+.card-body > h2 {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    text-align: left;
+    font-weight: bold;
+}
