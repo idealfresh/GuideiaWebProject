@@ -59,8 +59,23 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 #battery-image {
-    background-image: url('../images/productgrouplink/battery.jpg');
+    background-image: url('../images/productgrouplink/Battery.jpg');
 }
+
+#magnet-image {
+    background-image: url('../images/productgrouplink/Magnets.jpg');
+}
+
+#charger-image {
+    background-image: url('../images/productgrouplink/Charger.jpg');
+}
+
+#connector-image {
+    background-image: url('../images/productgrouplink/Connectors.jpg');
+}
+
+
+
 
 .card-body > h2 {
     color: white;
