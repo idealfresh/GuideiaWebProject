@@ -73,10 +73,54 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #connector-image {
     background-image: url('../images/productgrouplink/Connectors.jpg');
 }
-
-
-
-
+#bms-image {
+    background-image: url('../images/productgrouplink/BMS.jpg');
+}
+#dcdc-image {
+    background-image: url('../images/productgrouplink/DcDc.jpg');
+}
+#rele-image {
+    background-image: url('../images/productgrouplink/Rele.JPG');
+}
+#pads-image {
+    background-image: url('../images/productgrouplink/Podlojki.jpg');
+}
+#shina-image {
+    background-image: url('../images/productgrouplink/Shina.jpg');
+}
+#bracets-image {
+    background-image: url('../images/productgrouplink/Skobi.JPG');
+}
+#AWG-image {
+    background-image: url('../images/productgrouplink/AWG cables.jpg');
+}
+#balanceCable-image {
+    background-image: url('../images/productgrouplink/BalanceCables.jpg');
+}
+#watmeter-image {
+    background-image: url('../images/productgrouplink/Vatmetar.jpg');
+}
+#baterryIndicators-image {
+    background-image: url('../images/productgrouplink/Buzzer.JPG');
+}
+#electricBicycleKits-image {
+    background-image: url('../images/productgrouplink/KitKolela.jpg');
+}
+#barcodeScenners-image {
+    background-image: url('../images/productgrouplink/BarcodeScenners.jpg');
+}
+#batteryBag-image {
+    background-image: url('../images/productgrouplink/BatteryBag.JPG');
+}
+#controllersAndDisplays-image {
+    background-image: url('../images/productgrouplink/Conntrolers.jpg');
+}
+#magneticBall-image {
+    background-image: url('../images/productgrouplink/magnetiBall.jpg');
+}
+#instrument-image {
+    background-image: url('../images/productgrouplink/Instruments.jpg');
+}
 .card-body > h2 {
     color: white;
     font-size: 36px;
