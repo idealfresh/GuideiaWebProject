@@ -12,5 +12,10 @@ namespace App.Controllers
         {
             return View();
         }
+
+        public IActionResult Magnets()
+        {
+            return View();
+        }
     }
 }
