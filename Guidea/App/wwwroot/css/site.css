@@ -36,6 +36,10 @@ body {
     }
 }
 
+#logo{  
+    width:8%;
+}
+
 /*own class for buttons*/
 #navbarSupportedContent > ul > .nav-item > .layout-navbar-item {
     color: white;
@@ -121,6 +125,9 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #instrument-image {
     background-image: url('../images/productgrouplink/Instruments.jpg');
 }
+
+
+
 .card-body > h2 {
     color: white;
     font-size: 36px;
@@ -129,4 +136,24 @@ nav.navbar.navbar-expand-lg.navbar-light {
     padding: 0px;
     text-align: left;
     font-weight: bold;
+}
+
+.product-container{
+    margin-top:40px;
+}
+.product-container > h3 {
+    margin-top: 20px;
+}
+.battery-main-image {
+    width: 100%;
+}
+
+.technical-parameters {
+    padding: 50px 0px;
+    font-size: 23px;
+    text-align:justify;
+}
+
+.descriptive-image {
+    width: 100%;
 }

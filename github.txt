@@ -1,0 +1,3 @@
+Отваряш конзола в папката където е гит файла
+git commit -am imenacomita
+И после git push
