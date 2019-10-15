@@ -17,5 +17,11 @@ namespace App.Controllers
         {
             return View();
         }
+
+        public IActionResult Chargers()
+        {
+            return View();
+        }
+
     }
 }

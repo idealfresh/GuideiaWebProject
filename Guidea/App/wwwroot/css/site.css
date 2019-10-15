@@ -74,6 +74,44 @@ nav.navbar.navbar-expand-lg.navbar-light {
     background-image: url('../images/productgrouplink/Charger.jpg');
 }
 
+#charger-2bat {
+    background-image: url('../images/ChargerPictures/DveGnezda.JPG');
+}
+#charger-3bat-12V {
+    background-image: url('../images/ChargerPictures/3S/3S-1.jpg');
+}
+#charger-4bat-16V {
+    background-image: url('../images/ChargerPictures/4S/4S-1.jpg');
+}
+#charger-5bat-21V {
+    background-image: url('../images/ChargerPictures/5S/5S.jpg');
+}
+#charger-7bat-24V {
+    background-image: url('../images/ChargerPictures/24V battery charger 2A/7S-1.jpg');
+}
+#charger-10bat-36V {
+    background-image: url('../images/ChargerPictures/36V Battery charger 2A/10S-1.jpeg');
+}
+#charger-10bat-36V5A {
+    background-image: url('../images/ChargerPictures/36V Battery charger 5A/10S5A-1.jpg');
+}
+#charger-13bat-48V {
+    background-image: url('../images/ChargerPictures/48V battery charger 2A/13S-1.JPG');
+}
+#charger-13bat-48V4A {
+    background-image: url('../images/ChargerPictures/48V Battery charger 4A/13S4A-1.JPG');
+}
+#charger-16bat-60V {
+    background-image: url('../images/ChargerPictures/60V -  16S battery charger 2A/16S-1.jpg');
+}
+#charger-20bat-72V2A {
+    background-image: url('../images/ChargerPictures/72V Battery charger 2.5A/20S-1.JPG');
+}
+#charger-20bat-728V4A {
+    background-image: url('../images/ChargerPictures/72V Battery charger 4A/20S4A-1.JPG');
+}
+
+
 #connector-image {
     background-image: url('../images/productgrouplink/Connectors.jpg');
 }
