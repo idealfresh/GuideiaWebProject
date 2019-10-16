@@ -115,6 +115,34 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #connector-image {
     background-image: url('../images/productgrouplink/Connectors.jpg');
 }
+#normal-connector-image {
+    background-image: url('../images/productgrouplink/Connectors.jpg');
+}
+#waterproof1-connector-image {
+    background-image: url('../images/Connectors/WaterproofConnectors/Var 1-1.JPG');
+}
+#waterproof2-connector-image {
+    background-image: url('../images/Connectors/WaterproofConnectors/var 2.JPG');
+}
+#waterproof3-connector-imag {
+    background-image: url('../images/Connectors/WaterproofConnectors/var 3-1.JPG');
+}
+#waterproof4-connector-imag {
+    background-image: url('../images/Connectors/WaterproofConnectors/Var 4-1.JPG');
+}
+#XT60-connector-image {
+    background-image: url('../images/Connectors/RCConnectors/XT60/XT60-1.jpg');
+}
+#XT90-connector-image {
+    background-image: url('../images/Connectors/RCConnectors/XT90/XT90-1.jpg');
+}
+#t-connector-image {
+    background-image: url('../images/Connectors/RCConnectors/T/TConnector-1.JPG');
+}
+#BigTamiya-connector-image {
+    background-image: url('../images/Connectors/RCConnectors/Big Tamiya/BigTamya-1.JPG');
+}
+
 #bms-image {
     background-image: url('../images/productgrouplink/BMS.jpg');
 }
