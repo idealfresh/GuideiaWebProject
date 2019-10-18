@@ -146,6 +146,27 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #bms-image {
     background-image: url('../images/productgrouplink/BMS.jpg');
 }
+#bms1S-image {
+    background-image: url('../images/BMS/1S-BMS/BMS1.jpg');
+}
+#bms3S-image {
+    background-image: url('../images/BMS/3S-BMS/BMS-3S-1.jpg');
+}
+#bms4S-image {
+    background-image: url('../images/BMS/4S-BMS/BMS-4S.jpg');
+}
+#bms5S-image {
+    background-image: url('../images/BMS/5S-BMS/BMS-5S.jpg');
+}
+#bms7S-image {
+    background-image: url('../images/BMS/7S Waterproofe BMS Common Port/BMS-7S.JPG');
+}
+#bms10S-image {
+    background-image: url('../images/BMS/10S BMS - 35A/BMS - 10S.jpg');
+}
+#Bms10Sto16S-image {
+    background-image: url('../images/BMS/10S-16S Waterproofe BMS Common Port/BMS-10to16S.JPG');
+}
 #dcdc-image {
     background-image: url('../images/productgrouplink/DcDc.jpg');
 }
@@ -219,6 +240,10 @@ nav.navbar.navbar-expand-lg.navbar-light {
     padding: 50px 0px;
     font-size: 23px;
     text-align:justify;
+}
+.description {
+    font-size: 23px;
+    text-align: justify;
 }
 
 .descriptive-image {

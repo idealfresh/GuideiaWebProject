@@ -26,6 +26,13 @@ namespace App.Controllers
         {
             return View();
         }
-
+        public IActionResult Pad()
+        {
+            return View();
+        }
+        public IActionResult Relay()
+        {
+            return View();
+        }      
     }
 }
