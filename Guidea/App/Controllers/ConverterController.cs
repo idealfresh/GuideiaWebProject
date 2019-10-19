@@ -6,45 +6,45 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace App.Controllers
 {
-    public class BmsController : Controller
+    public class ConverterController : Controller
     {
-        public IActionResult BmsAll()
+        public IActionResult ConverterAll()
         {
             return View();
         }
-        public IActionResult Bms1S()
+        public IActionResult ConverterModel1()
         {
             return View();
         }
-        public IActionResult Bms3S()
+        public IActionResult ConverterModel2()
         {
             return View();
         }
-        public IActionResult Bms4S()
+        public IActionResult ConverterModel3()
         {
             return View();
         }
-        public IActionResult Bms5S()
+        public IActionResult ConverterModel4()
         {
             return View();
         }
-        public IActionResult Bms7S()
+        public IActionResult ConverterModel5()
         {
             return View();
         }
-        public IActionResult Bms10S()
+        public IActionResult ConverterModel6()
         {
             return View();
         }
-        public IActionResult Bms10Sto16S()
+        public IActionResult ConverterModel7()
         {
             return View();
         }
-        public IActionResult Bms13S()
+        public IActionResult ConverterModel8()
         {
             return View();
         }
-        public IActionResult Bms20S()
+        public IActionResult ConverterModel9()
         {
             return View();
         }
