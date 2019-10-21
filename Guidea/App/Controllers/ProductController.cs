@@ -33,6 +33,27 @@ namespace App.Controllers
         public IActionResult Relay()
         {
             return View();
-        }      
+        }
+        public IActionResult NickelStrip()
+        {
+            return View();
+        }
+        public IActionResult Braket()
+        {
+            return View();
+        }
+        public IActionResult AWGCable()
+        {
+            return View();
+        }
+        public IActionResult BalanceCable()
+        {
+            return View();
+        }
+        public IActionResult Wattmeter()
+        {
+            return View();
+        }
+        
     }
 }

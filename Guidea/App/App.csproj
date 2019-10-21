@@ -31,6 +31,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\ChargerPictures\2S Charger\" />
     <Folder Include="wwwroot\images\MagnetPictures\" />
+    <Folder Include="wwwroot\images\NikelStrip\" />
   </ItemGroup>
 
 </Project>
