@@ -54,6 +54,14 @@ namespace App.Controllers
         {
             return View();
         }
-        
+        public IActionResult BatteryIndicator()
+        {
+            return View();
+        }
+        public IActionResult ElectricBicycleKit()
+        {
+            return View();
+        }
+
     }
 }
