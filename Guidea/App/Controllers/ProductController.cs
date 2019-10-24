@@ -62,6 +62,22 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult BarcodeScenner()
+        {
+            return View();
+        }
+        public IActionResult BatteryBag()
+        {
+            return View();
+        }
+        public IActionResult BicycleControllerAndDisplay()
+        {
+            return View();
+        }
+        public IActionResult MagneticBall()
+        {
+            return View();
+        }
 
     }
 }

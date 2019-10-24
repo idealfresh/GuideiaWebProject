@@ -240,6 +240,12 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #controllersAndDisplays-image {
     background-image: url('../images/productgrouplink/Conntrolers.jpg');
 }
+#bicycle-controller-image {
+    background-image: url('../images/Controllers and displays/ControllerPage.jpg')
+}
+#bicycle-display-image {
+    background-image: url('../images/Controllers and displays/DispalyPage.JPG')
+}
 #magneticBall-image {
     background-image: url('../images/productgrouplink/magnetiBall.jpg');
 }
