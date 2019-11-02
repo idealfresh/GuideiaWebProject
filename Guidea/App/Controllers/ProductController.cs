@@ -75,9 +75,16 @@ namespace App.Controllers
             return View();
         }
         public IActionResult MagneticBall()
+
         {
             return View();
         }
+        public IActionResult Tools()
+
+        {
+            return View();
+        }
+
 
     }
 }

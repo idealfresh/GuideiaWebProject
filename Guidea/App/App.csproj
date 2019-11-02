@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\images\ChargerPictures\2S Charger\**" />
     <Compile Remove="wwwroot\images\Indicators\**" />
+    <Content Remove="wwwroot\images\ChargerPictures\2S Charger\**" />
     <Content Remove="wwwroot\images\Indicators\**" />
+    <EmbeddedResource Remove="wwwroot\images\ChargerPictures\2S Charger\**" />
     <EmbeddedResource Remove="wwwroot\images\Indicators\**" />
+    <None Remove="wwwroot\images\ChargerPictures\2S Charger\**" />
     <None Remove="wwwroot\images\Indicators\**" />
   </ItemGroup>
 
@@ -36,7 +40,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\ChargerPictures\2S Charger\" />
     <Folder Include="wwwroot\images\MagnetPictures\" />
     <Folder Include="wwwroot\images\NikelStrip\" />
   </ItemGroup>

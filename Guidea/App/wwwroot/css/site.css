@@ -36,8 +36,8 @@ body {
     }
 }
 
-#logo{  
-    width:6%;
+#logo {
+    width: 6%;
 }
 
 /*own class for buttons*/
@@ -45,10 +45,10 @@ body {
     color: white;
 }
 
-#navbarSupportedContent > ul > .nav-item > .layout-navbar-item:hover {
-     color: #96ca2d;
-     text-decoration: wavy;
-}
+    #navbarSupportedContent > ul > .nav-item > .layout-navbar-item:hover {
+        color: #96ca2d;
+        text-decoration: wavy;
+    }
 
 nav.navbar.navbar-expand-lg.navbar-light {
     background-color: #428309 !important;
@@ -56,8 +56,8 @@ nav.navbar.navbar-expand-lg.navbar-light {
 
 .card-body {
     height: 300px;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -77,36 +77,47 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #charger-2bat {
     background-image: url('../images/ChargerPictures/DveGnezda.JPG');
 }
+
 #charger-3bat-12V {
     background-image: url('../images/ChargerPictures/3S/3S-1.jpg');
 }
+
 #charger-4bat-16V {
     background-image: url('../images/ChargerPictures/4S/4S-1.jpg');
 }
+
 #charger-5bat-21V {
     background-image: url('../images/ChargerPictures/5S/5S.jpg');
 }
+
 #charger-7bat-24V {
     background-image: url('../images/ChargerPictures/24V battery charger 2A/7S-1.jpg');
 }
+
 #charger-10bat-36V {
     background-image: url('../images/ChargerPictures/36V Battery charger 2A/10S-1.jpeg');
 }
+
 #charger-10bat-36V5A {
     background-image: url('../images/ChargerPictures/36V Battery charger 5A/10S5A-1.jpg');
 }
+
 #charger-13bat-48V {
     background-image: url('../images/ChargerPictures/48V battery charger 2A/13S-1.JPG');
 }
+
 #charger-13bat-48V4A {
     background-image: url('../images/ChargerPictures/48V Battery charger 4A/13S4A-1.JPG');
 }
+
 #charger-16bat-60V {
     background-image: url('../images/ChargerPictures/60V -  16S battery charger 2A/16S-1.jpg');
 }
+
 #charger-20bat-72V2A {
     background-image: url('../images/ChargerPictures/72V Battery charger 2.5A/20S-1.JPG');
 }
+
 #charger-20bat-728V4A {
     background-image: url('../images/ChargerPictures/72V Battery charger 4A/20S4A-1.JPG');
 }
@@ -115,30 +126,39 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #connector-image {
     background-image: url('../images/productgrouplink/Connectors.jpg');
 }
+
 #normal-connector-image {
     background-image: url('../images/productgrouplink/Connectors.jpg');
 }
+
 #waterproof1-connector-image {
     background-image: url('../images/Connectors/WaterproofConnectors/Var 1-1.JPG');
 }
+
 #waterproof2-connector-image {
     background-image: url('../images/Connectors/WaterproofConnectors/var 2.JPG');
 }
+
 #waterproof3-connector-imag {
     background-image: url('../images/Connectors/WaterproofConnectors/var 3-1.JPG');
 }
+
 #waterproof4-connector-imag {
     background-image: url('../images/Connectors/WaterproofConnectors/Var 4-1.JPG');
 }
+
 #XT60-connector-image {
     background-image: url('../images/Connectors/RCConnectors/XT60/XT60-1.jpg');
 }
+
 #XT90-connector-image {
     background-image: url('../images/Connectors/RCConnectors/XT90/XT90-1.jpg');
 }
+
 #t-connector-image {
     background-image: url('../images/Connectors/RCConnectors/T/TConnector-1.JPG');
 }
+
 #BigTamiya-connector-image {
     background-image: url('../images/Connectors/RCConnectors/Big Tamiya/BigTamya-1.JPG');
 }
@@ -146,60 +166,79 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #bms-image {
     background-image: url('../images/productgrouplink/BMS.jpg');
 }
+
 #bms1S-image {
     background-image: url('../images/BMS/1S-BMS/BMS1.jpg');
 }
+
 #bms3S-image {
     background-image: url('../images/BMS/3S-BMS/BMS-3S-1.jpg');
 }
+
 #bms4S-image {
     background-image: url('../images/BMS/4S-BMS/BMS-4S.jpg');
 }
+
 #bms5S-image {
     background-image: url('../images/BMS/5S-BMS/BMS-5S.jpg');
 }
+
 #bms7S-image {
     background-image: url('../images/BMS/7S Waterproofe BMS Common Port/BMS-7S.JPG');
 }
+
 #bms10S-image {
     background-image: url('../images/BMS/10S BMS - 35A/BMS - 10S.jpg');
 }
+
 #Bms10Sto16S-image {
     background-image: url('../images/BMS/10S-16S Waterproofe BMS Common Port/BMS-10to16S.JPG');
 }
+
 #Bms13S-image {
     background-image: url('../images/BMS/13S BMS - 35A/BMS-13S.JPG');
 }
+
 #Bms20S-image {
     background-image: url('../images/BMS/20S bms 90A/BMS-20S.JPG');
 }
+
 #dcdc-image {
     background-image: url('../images/productgrouplink/DcDc.jpg');
 }
+
 #dcdc-model1-image {
     background-image: url('../images/DC-DC converters/Model 1/Model 1.jpg');
 }
+
 #dcdc-model2-image {
     background-image: url('../images/DC-DC converters/Model 2/DCDCModel2.jpg');
 }
+
 #dcdc-model3-image {
     background-image: url('../images/DC-DC converters/Model 3/Model 3.jpg');
 }
+
 #dcdc-model4-image {
     background-image: url('../images/DC-DC converters/Model 4/Model 4.jpg');
 }
+
 #dcdc-model5-image {
     background-image: url('../images/DC-DC converters/Model 5/Model 5.jpg');
 }
+
 #dcdc-model6-image {
     background-image: url('../images/DC-DC converters/Model 6/Model6.jpg');
 }
+
 #dcdc-model7-image {
     background-image: url('../images/DC-DC converters/Model 7/Model7.jpg');
 }
+
 #dcdc-model8-image {
     background-image: url('../images/DC-DC converters/Model 8/Model 8.jpg');
 }
+
 #dcdc-model9-image {
     background-image: url('../images/DC-DC converters/Model 9/Model9.jpg');
 }
@@ -207,50 +246,81 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #rele-image {
     background-image: url('../images/productgrouplink/Rele.JPG');
 }
+
 #pads-image {
     background-image: url('../images/productgrouplink/Podlojki.jpg');
 }
+
 #shina-image {
     background-image: url('../images/productgrouplink/Shina.jpg');
 }
+
 #bracets-image {
     background-image: url('../images/productgrouplink/Skobi.JPG');
 }
+
 #AWG-image {
     background-image: url('../images/productgrouplink/AWG cables.jpg');
 }
+
 #balanceCable-image {
     background-image: url('../images/productgrouplink/BalanceCables.jpg');
 }
+
 #watmeter-image {
     background-image: url('../images/productgrouplink/Vatmetar.jpg');
 }
+
 #baterryIndicators-image {
     background-image: url('../images/productgrouplink/BatteryIndicator.JPG');
 }
+
 #electricBicycleKits-image {
     background-image: url('../images/productgrouplink/KitKolela.jpg');
 }
+
 #barcodeScenners-image {
     background-image: url('../images/productgrouplink/BarcodeScenners.jpg');
 }
+
 #batteryBag-image {
     background-image: url('../images/productgrouplink/BatteryBag.JPG');
 }
+
 #controllersAndDisplays-image {
     background-image: url('../images/productgrouplink/Conntrolers.jpg');
 }
+
 #bicycle-controller-image {
     background-image: url('../images/Controllers and displays/ControllerPage.jpg')
 }
+
 #bicycle-display-image {
     background-image: url('../images/Controllers and displays/DispalyPage.JPG')
 }
+
 #magneticBall-image {
     background-image: url('../images/productgrouplink/magnetiBall.jpg');
 }
+
 #instrument-image {
     background-image: url('../images/productgrouplink/Instruments.jpg');
+}
+
+#screw-extractor-image {
+    background-image: url('../images/Instruments/Screw Extractor/ScrewExtractor.jpg');
+}
+
+#screwdriver-flexible-extension-image {
+    background-image: url('../images/Instruments/Screwdriver-Flexible-Extension/FlexibleExtension.jpg');
+}
+
+#automatic-center-punch-image {
+    background-image: url('../images/Instruments/AutomaticCenterPunch/AutomaticCenterPunch.jpg');
+}
+
+#drywall-screwdriver-bit-image {
+    background-image: url('../images/Instruments/Drywall-screwdriver-bit/DrywallScrewdriverbit.jpg');
 }
 
 
@@ -265,22 +335,25 @@ nav.navbar.navbar-expand-lg.navbar-light {
     font-weight: bold;
 }
 
-.product-container{
-    margin-top:40px;
+.product-container {
+    margin-top: 40px;
 }
-.product-container > h3 {
-    margin-top: 20px;
-}
+
+    .product-container > h3 {
+        margin-top: 20px;
+    }
+
 .product-main-image {
     width: 100%;
-    height:300px;
+    height: 300px;
 }
 
 .technical-parameters {
     padding: 50px 0px;
     font-size: 23px;
-    text-align:justify;
+    text-align: justify;
 }
+
 .description {
     font-size: 23px;
     text-align: justify;
@@ -289,3 +362,4 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .descriptive-image {
     width: 100%;
 }
+
