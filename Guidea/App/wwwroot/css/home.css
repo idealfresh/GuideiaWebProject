@@ -1,10 +1,17 @@
-﻿body > div > div > div:nth-child(1) {
-    margin-top: 100px;
+﻿.home-container {
+    margin-top:80px;
+}
+
+.home-row-container {
+    width: 75%;
+    display: inline-block;   
 }
 
 .home-row {
     width: 100%;
+    margin-bottom: 80px;
 }
+
 
 .home-row-image {
     width: 20%;
@@ -13,12 +20,19 @@
 }
 
     .home-row-image > img {
-        height: 130px;
+        height: 550px;
+        width:100%;
     }
 
-.context-group {
-    width: 45%;
+.row-content {
+    width: 100%;
     display: inline-block;
+}
+
+.context-group {
+    width: 49%;
+    display: inline-block;
+    padding-left: 50px;
 }
 
 .context-group-logo {
@@ -37,9 +51,5 @@
     padding-left:20px;
 }
 
-.row-content {
-    width: 70%;
-    display: inline-block;
-}
 
 
