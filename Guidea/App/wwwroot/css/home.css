@@ -4,7 +4,7 @@
 
 .home-row-container {
     width: 75%;
-    display: inline-block;   
+    display: inline-block;      
 }
 
 .home-row {
@@ -26,13 +26,14 @@
 
 .row-content {
     width: 100%;
-    display: inline-block;
+    display: inline-block;    
 }
 
 .context-group {
     width: 49%;
     display: inline-block;
     padding-left: 50px;
+    vertical-align: top;
 }
 
 .context-group-logo {
