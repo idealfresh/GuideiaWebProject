@@ -41,6 +41,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\MagnetPictures\" />
+    <Folder Include="wwwroot\images\CaroselImages\" />
     <Folder Include="wwwroot\images\NikelStrip\" />
   </ItemGroup>
 
