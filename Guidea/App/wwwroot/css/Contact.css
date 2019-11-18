@@ -2,9 +2,14 @@
 .adress-shop {
     margin-top:50px;
 }
+.work-time {
+    margin-left:250px;    
+}
 
 .map {
-    padding-left:250px;
+    padding-top:50px;
+    padding-left: 250px;
+    padding-right:50px;
 }
 
 .form-control-contant-information {
