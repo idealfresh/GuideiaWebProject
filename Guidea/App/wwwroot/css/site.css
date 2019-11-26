@@ -77,7 +77,12 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #charger-image {
     background-image: url('../images/productgrouplink/Charger.jpg');
 }
-
+#charger-1S {
+    background-image: url('../images/ChargerPictures/2S/2S-1.jpg');
+}
+#charger2SOne {
+    background-image: url('../images/ChargerPictures/2S/2S-1.jpg');
+}
 #charger-2bat {
     background-image: url('../images/ChargerPictures/DveGnezda.JPG');
 }

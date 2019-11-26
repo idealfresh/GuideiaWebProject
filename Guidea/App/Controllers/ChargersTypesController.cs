@@ -8,6 +8,15 @@ namespace App.Controllers
 {
     public class ChargersTypesController : Controller
     {
+        public IActionResult Charger1S()
+        {
+            return View();
+        }
+        
+        public IActionResult Charger2SOne()
+        {
+            return View();
+        }
         public IActionResult Charger2S()
         {
             return View();
