@@ -304,8 +304,13 @@ nav.navbar.navbar-expand-lg.navbar-light {
     background-image: url('../images/Controllers and displays/ControllerPage.jpg')
 }
 
+
 #bicycle-display-image {
     background-image: url('../images/Controllers and displays/DispalyPage.JPG')
+}
+
+#bicycle-accessories-image {
+    background-image: url('../images/Controllers and displays/BikeAccessories/AllProducts.JPG')
 }
 
 #magneticBall-image {
@@ -371,4 +376,10 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .descriptive-image {
     width: 100%;
 }
-
+.grey {
+    padding-bottom:9px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    background-color: #eee;
+    font-size: 20px;
+}

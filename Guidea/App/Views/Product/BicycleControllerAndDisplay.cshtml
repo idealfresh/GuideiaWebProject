@@ -3,24 +3,33 @@
     ViewData["Title"] = "BicycleControllerAndDisplay";
 }
 
-<div class="card-deck ">
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="BickeControllerAndDisplay" asp-action="BickeController">
-            <div class="card-body" id="bicycle-controller-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Контролер</small>
-            </div>
-        </a>
+    <div class="card-deck ">
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="BickeControllerAndDisplay" asp-action="BickeController">
+                <div class="card-body" id="bicycle-controller-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Контролер</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="BickeControllerAndDisplay" asp-action="BickeDisplay">
+                <div class="card-body" id="bicycle-display-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Дисплей</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="BickeControllerAndDisplay" asp-action="BikeAccessories">
+                <div class="card-body" id="bicycle-accessories-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Аксесоари за електрически колела</small>
+                </div>
+            </a>
+        </div>
     </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="BickeControllerAndDisplay" asp-action="BickeDisplay">
-            <div class="card-body" id="bicycle-display-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Дисплей</small>
-            </div>
-        </a>
-    </div>
-</div>
 

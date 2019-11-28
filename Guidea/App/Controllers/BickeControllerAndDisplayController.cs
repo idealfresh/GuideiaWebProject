@@ -16,5 +16,9 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult BikeAccessories()
+        {
+            return View();
+        }
     }
 }
