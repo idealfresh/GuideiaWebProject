@@ -2,205 +2,207 @@
 @{
     ViewData["Title"] = "Products";
 }
+<div class="container body-content">
+    <h2>Products</h2>
 
-<h2>Products</h2>
-<div class="card-deck ">
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Battery">
-            <div class="card-body" id="battery-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Battery</small>
-            </div>
-        </a>
+    <div class="card-deck ">
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Battery">
+                <div class="card-body" id="battery-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Battery</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Magnets">
+                <div class="card-body" id="magnet-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Magnets</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Chargers">
+                <div class="card-body" id="charger-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Chargers</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Connectors">
+                <div class="card-body" id="connector-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Connectors</small>
+                </div>
+            </a>
+        </div>
     </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Magnets">
-            <div class="card-body" id="magnet-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Magnets</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Chargers">
-            <div class="card-body" id="charger-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Chargers</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Connectors">
-            <div class="card-body" id="connector-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Connectors</small>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="card-deck ">
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Pad">
-            <div class="card-body" id="pads-image">
-                <h2>Battery Pad</h2>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Pads</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Relay">
-            <div class="card-body" id="rele-image">
-                <h2>Reley</h2>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Reley</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Bms" asp-action="BmsAll">
-            <div class="card-body" id="bms-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">BMS</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Converter" asp-action="ConverterAll">
-            <div class="card-body" id="dcdc-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Converters</small>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="card-deck ">
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="NickelStrip">
-            <div class="card-body" id="shina-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Никелирана Шина (Nickel Strip)</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Braket">
-            <div class="card-body" id="bracets-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Bracets Тройни скоби брекети за батерии 18650</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="AWGCable">
-            <div class="card-body" id="AWG-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Гъвкави силиконови многожилни кабели AWG, до 200°C </small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="BalanceCable">
-            <div class="card-body" id="balanceCable-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Балансни кабели</small>
-            </div>
-        </a>
+    <div class="card-deck ">
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Pad">
+                <div class="card-body" id="pads-image">
+                    <h2>Battery Pad</h2>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Pads</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Relay">
+                <div class="card-body" id="rele-image">
+                    <h2>Reley</h2>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Reley</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Bms" asp-action="BmsAll">
+                <div class="card-body" id="bms-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">BMS</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Converter" asp-action="ConverterAll">
+                <div class="card-body" id="dcdc-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Converters</small>
+                </div>
+            </a>
+        </div>
     </div>
 
-</div>
+    <div class="card-deck ">
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="NickelStrip">
+                <div class="card-body" id="shina-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Никелирана Шина (Nickel Strip)</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Braket">
+                <div class="card-body" id="bracets-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Bracets Тройни скоби брекети за батерии 18650</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="AWGCable">
+                <div class="card-body" id="AWG-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Гъвкави силиконови многожилни кабели AWG, до 200°C </small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="BalanceCable">
+                <div class="card-body" id="balanceCable-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Балансни кабели</small>
+                </div>
+            </a>
+        </div>
 
-<div class="card-deck ">
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Wattmeter">
-            <div class="card-body" id="watmeter-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Ватметър (амперметър, волтметър, електромер) с шунт</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="BatteryIndicator">
-            <div class="card-body" id="baterryIndicators-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Baterry indicators       Индикации за батерии</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="ElectricBicycleKit">
-            <div class="card-body" id="electricBicycleKits-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Electric bicycle kits Китове за ел. колело комплект 250W – 6000W </small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="BarcodeScenner">
-            <div class="card-body" id="barcodeScenners-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Barcode Scenners  Баркод четци</small>
-            </div>
-        </a>
-    </div>
-
-</div>
-
-<div class="card-deck ">
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="BatteryBag">
-            <div class="card-body" id="batteryBag-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Battery bags</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="BicycleControllerAndDisplay">
-            <div class="card-body" id="controllersAndDisplays-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Контролери, дисплеи и аксесоари за електрически колела</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="MagneticBall">
-            <div class="card-body" id="magneticBall-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Magnetic Ball</small>
-            </div>
-        </a>
-    </div>
-    <div class="card">
-        <a class="card-link" asp-area="" asp-controller="Product" asp-action="Tools">
-            <div class="card-body" id="instrument-image">
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Instruments</small>
-            </div>
-        </a>
     </div>
 
+    <div class="card-deck ">
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Wattmeter">
+                <div class="card-body" id="watmeter-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Ватметър (амперметър, волтметър, електромер) с шунт</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="BatteryIndicator">
+                <div class="card-body" id="baterryIndicators-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Baterry indicators       Индикации за батерии</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="ElectricBicycleKit">
+                <div class="card-body" id="electricBicycleKits-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Electric bicycle kits Китове за ел. колело комплект 250W – 6000W </small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="BarcodeScenner">
+                <div class="card-body" id="barcodeScenners-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Barcode Scenners  Баркод четци</small>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="card-deck ">
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="BatteryBag">
+                <div class="card-body" id="batteryBag-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Battery bags</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="BicycleControllerAndDisplay">
+                <div class="card-body" id="controllersAndDisplays-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Контролери, дисплеи и аксесоари за електрически колела</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="MagneticBall">
+                <div class="card-body" id="magneticBall-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Magnetic Ball</small>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a class="card-link" asp-area="" asp-controller="Product" asp-action="Tools">
+                <div class="card-body" id="instrument-image">
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Instruments</small>
+                </div>
+            </a>
+        </div>
+
+    </div>
 </div>
 
 

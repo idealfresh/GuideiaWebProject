@@ -1,24 +1,40 @@
 ﻿
 .adress-shop {
-    margin-top:50px;
-}
-.work-time {
-    margin-left:250px;    
+    margin-top: 50px;
 }
 
-.map {
-    padding-top:50px;
-    padding-left: 250px;
-    padding-right:50px;
+.work-time {
+    margin-left: 250px;
 }
+
+.form-contact {
+    width: 30rem;
+}
+.map {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 
 .form-control-contant-information {
-
     display: block;
-    width: 180%;    
     color: #495057;
     background-color: #fff;
-    background-clip: padding-box;    
+    background-clip: padding-box;
 }
 
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 530px;
+}
 
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
