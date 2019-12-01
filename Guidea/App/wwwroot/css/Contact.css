@@ -16,7 +16,8 @@
 
 
 
-.form-control-contant-information {
+.form-control-contact-information {
+    width:25rem;
     display: block;
     color: #495057;
     background-color: #fff;
