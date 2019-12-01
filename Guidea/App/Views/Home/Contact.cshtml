@@ -18,17 +18,18 @@
             <strong>Събота</strong> - 10:00 - 14:00 - Моля обадете се предварително дали е отворен магазина<br />
         </div>
     </div>
-    <div class="form-check form-check-inline">
-        <div class="form-group mb-2">
-            <form asp-controller="Email" asp-action="Send" method="post">
+
+    <form asp-controller="Email" asp-action="Send" method="post">
+        <div class="row">
+            <div class="col">
                 <h3> Форма за контакт и поръчка</h3>
                 <div class="form-group">
                     <label for="customer-name">Име</label>
-                    <input type="text" name="name" class="form-control-contant-information" id="customer-name" placeholder="Име">
+                    <input type="text" name="name" class="form-control-contant-information" id="customer-name" required placeholder="Име">
                 </div>
                 <div class="form-group">
                     <label for="phone-number">Телефонен номер</label>
-                    <input type="text" name="phone" class="form-control-contant-information" id="phone-number" placeholder="Телефонен номер">
+                    <input type="text" name="phone" class="form-control-contant-information" id="phone-number" required placeholder="Телефонен номер">
                 </div>
                 <div class="form-group">
                     <label for="email-address">Електронен адрес</label>
@@ -36,22 +37,26 @@
                 </div>
                 <div class="form-group">
                     <label for="input-message">Съобщение</label>
-                    <textarea name="message" class="form-control-contant-information" id="input-message" input rows="3" placeholder="Вашето съобщение и адрес за доставка"></textarea>
+                    <textarea name="message" class="form-control-contant-information" id="input-message" required input rows="3" placeholder="Вашето съобщение и адрес за доставка"></textarea>
                 </div>
                 <div class="actions">
                     <input type="submit" value="Изпрати" class="btn btn-info pull-right" />
                 </div>
-            </form>
-            <address class="map">
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.203138268748!2d23.340881615426845!3d42.65705047916798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa850a7afef8a5%3A0x6f9b19624486977c!2z0JPQsNC50LTQuNGPINCV0J7QntCUIC0g0JHQsNGC0LXRgNC40LgsINC80LDQs9C90LjRgtC4!5e0!3m2!1sen!2sbg!4v1572684368221!5m2!1sen!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="col">
+                <address class="map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.203138268748!2d23.340881615426845!3d42.65705047916798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa850a7afef8a5%3A0x6f9b19624486977c!2z0JPQsNC50LTQuNGPINCV0J7QntCUIC0g0JHQsNGC0LXRgNC40LgsINC80LDQs9C90LjRgtC4!5e0!3m2!1sen!2sbg!4v1572684368221!5m2!1sen!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
                     </div>
-                </div>
-            </address>
+                </address>
+            </div>
         </div>
-    </div>
+    </form>
+
 </div>
+
 
 
 
