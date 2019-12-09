@@ -70,9 +70,17 @@ nav.navbar.navbar-expand-lg.navbar-light {
     background-image: url('../images/productgrouplink/Battery.jpg');
 }
 
-#magnet-image {
-    background-image: url('../images/productgrouplink/Magnets.jpg');
+#battery-pack-image {
+    background-image: url('../images/BatteryPacks/BatteryPacks-3.jpg');
 }
+
+#battery-repair-image {
+    background-image: url('../images/BatteryPacks/Pack-3.JPG');
+}
+
+    #magnet-image {
+        background-image: url('../images/productgrouplink/Magnets.jpg');
+    }
 
 #charger-image {
     background-image: url('../images/productgrouplink/Charger.jpg');

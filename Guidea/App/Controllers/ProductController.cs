@@ -73,12 +73,7 @@ namespace App.Controllers
         public IActionResult BicycleControllerAndDisplay()
         {
             return View();
-        }
-        public IActionResult MagneticBall()
-
-        {
-            return View();
-        }
+        }       
         public IActionResult Tools()
 
         {

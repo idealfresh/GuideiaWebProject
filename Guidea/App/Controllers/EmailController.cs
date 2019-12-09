@@ -28,7 +28,7 @@ namespace App.Controllers
                 {
                     From = new MailAddress(emailDto.Email),
                     Subject = "From Site Contact Form",
-                    Body = emailDto.Message.Compose(emailDto.Name,emailDto.Phone)
+                    Body = emailDto.Message.Compose(emailDto.Name,emailDto.Phone,emailDto.Email)
                     
                 };
 

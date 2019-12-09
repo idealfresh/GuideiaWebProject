@@ -8,10 +8,11 @@ namespace App.Exentions
 {
     public static class EmailComposer
     {
-        public static string Compose(this string msg,string name,string phoneNumber)
+        public static string Compose(this string msg,string name,string phoneNumber,string eMail)
         {
             var sb = new StringBuilder();
             sb.AppendLine($"Name: {name}");
+            sb.AppendLine($"Name: {eMail}");
             sb.AppendLine($"Phone Number: {phoneNumber}");
             sb.AppendLine();
             sb.AppendLine(msg);
