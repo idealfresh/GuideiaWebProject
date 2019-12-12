@@ -55,7 +55,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 .card-deck {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .card-body {
@@ -78,19 +78,26 @@ nav.navbar.navbar-expand-lg.navbar-light {
     background-image: url('../images/BatteryPacks/Pack-3.JPG');
 }
 
-    #magnet-image {
-        background-image: url('../images/productgrouplink/Magnets.jpg');
-    }
+#magnet-image {
+    background-image: url('../images/productgrouplink/Magnets.jpg');
+}
+
+#battery-accessories-image {
+    background-image: url('../images/batteryaccessories/batteryaccessories.jpg');   
+}
 
 #charger-image {
     background-image: url('../images/productgrouplink/Charger.jpg');
 }
+
 #charger-1S {
     background-image: url('../images/ChargerPictures/2S/2S-1.jpg');
 }
+
 #charger2SOne {
     background-image: url('../images/ChargerPictures/2S/2S-1.jpg');
 }
+
 #charger-2bat {
     background-image: url('../images/ChargerPictures/DveGnezda.JPG');
 }
@@ -304,6 +311,17 @@ nav.navbar.navbar-expand-lg.navbar-light {
     background-image: url('../images/productgrouplink/BatteryBag.JPG');
 }
 
+#bicycle-front-motor-image {
+    background-image: url('../images/e-bike kits/fronmotor.jpg');
+}
+#bicycle-back-motor-image {
+    background-image: url('../images/e-bike kits/rearmotor.jpg');
+}
+
+#bicycle-middle-motor-image {
+    background-image: url('../images/e-bike kits/middlemotor.jpg');   
+}
+
 #controllersAndDisplays-image {
     background-image: url('../images/productgrouplink/Conntrolers.jpg');
 }
@@ -384,8 +402,9 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .descriptive-image {
     width: 100%;
 }
+
 .grey {
-    padding-bottom:9px;
+    padding-bottom: 9px;
     border: 1px solid transparent;
     font-weight: 700;
     background-color: #eee;
