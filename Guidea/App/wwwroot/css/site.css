@@ -230,6 +230,17 @@ nav.navbar.navbar-expand-lg.navbar-light {
 #dcdc-image {
     background-image: url('../images/productgrouplink/DcDc.jpg');
 }
+#dcdc-stepup-image {
+    background-image: url('../images/dc-dc converters/snimki all/step-up.bmp');    
+}
+
+#dcdc-stepdown-image {
+    background-image: url('../images/dc-dc converters/snimki all/stepdown.bmp');
+}
+
+#dcdc-stepup-stepdown-image {
+    background-image: url('../images/dc-dc converters/snimki all/stepup-stepdown.jpg');
+}
 
 #dcdc-model1-image {
     background-image: url('../images/DC-DC converters/Model 1/Model 1.jpg');

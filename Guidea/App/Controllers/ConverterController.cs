@@ -49,5 +49,20 @@ namespace App.Controllers
             return View();
         }
 
+        public IActionResult StepUpConverter()
+        {
+            return View();
+        }
+
+        public IActionResult StepDwonConverter()
+        {
+            return View();
+        }
+
+        public IActionResult StepUpStepDwonConverter()
+        {
+            return View();
+        }
+
     }
 }
