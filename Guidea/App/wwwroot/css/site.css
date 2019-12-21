@@ -66,6 +66,14 @@ nav.navbar.navbar-expand-lg.navbar-light {
     position: relative;
 }
 
+.card-footer {
+    height: 145px;
+}
+
+.card-useless {
+    border:none;
+}
+
 #battery-image {
     background-image: url('../images/productgrouplink/Battery.jpg');
 }
