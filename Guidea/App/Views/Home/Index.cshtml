@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -43,109 +44,149 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="container">
-    <div class="home-container">
-        <div class="home-row-image">
-            <img src="~/images/PictureFront/Big picture/green-nature-wallpaper.jpg" />
+<div class="container mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 d-none d-md-block home-row-image">
+                <img src="~/images/PictureFront/Big picture/green-nature-wallpaper.jpg" />
+            </div>
+            <div class="col-md-9 col-12">
+                <div class="container">
+                    <div class="row mb-5">
+                        <article class="col-12 col-md-6 mb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/BatteryLight.JPG" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>Батерии</h5>
+                                        <a href=" Product/Battery" class="link">
+                                            Батерии 18650  <br />
+                                            Samsung, Sony. <br />
+                                            Рециклиране и изработка на батерии. Точково заваряване.<br />
+                                            Витоверти, колела, скутери, ховърборд, тротинетки, коли.
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/ElParts.JPG" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5> Части, аксесоари, принадлежности за батерии тип 18650</h5>
+                                        <a href="BatteryAccessories/BatteryAccessories" class="link">
+                                            <p>BMS платки, зарядни, текстолит, шлаух, AWG кабел, конектори, шина за точковаи заварки, термо тиксо, балансни кабели, брекети и др. </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="row mb-5">
+                        <article class="col-12 col-md-6 mb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/Magnets.bmp" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>Неодимови магнити</h5>
+                                        <a href="Product/Magnets" class="link">Неодимови магнити кръгли(шайби), правоъгълни, квадратни, различни размери. Комплекти неодимови топчета 3мм., 5мм., (216бр.), 10мм</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/Connectors.jpg" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>Конектори</h5>
+                                        <a href="Product/Connectors" class="link">IP-68 влагозащитени конектори. XT-30,XT-60,XT-90, T конектро, BigTamiya, DC 5,5/5,1 и др.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="row mb-5">
+                        <article class="col-12 col-md-6 mb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/CarBattery.JPG" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>Електрически комплекти за колела, части и принадлежности </h5>
+                                        <a href="Product/ElectricBicycleKit" class="link">
+                                            Предни, задни, средни комплекти (250W до 6000W).<br /> Контролери, дисплеи, кутии за батерии, палец газ, ръчка газ и др.
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/StepDown.bmp" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>DC правотокови конвертори</h5>
+                                        <a href="Converter/ConverterAll" class="link">
+                                            Повишаващи конвертори, понижаващи конвертори, понижаващи/повишаващи конвертори
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="row mb-5">
+                        <article class="col-12 col-md-6 mb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/PictureFront/instruments.jpg" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>Инструменти </h5>
+                                        <a href="Product/Tools" class="link">
+                                            Екстрактор за винтове, гъвкав удължител, магнитен бит с ограничител, автоматичен центръ
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 article-logo">
+                                        <img src="~/images/NETUM barcode scanners/NetumW2-2.jpg" />
+                                    </div>
+                                    <div class="col-8">
+                                        <h5>Баркод четци</h5>
+                                        <a href="Product/BarcodeScenner" class="link">
+                                            NETUM - 1D 2D QR автоматичен комбиниран безжичен баркод четец
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class="home-row-container">
-            <div class="home-row">
-                <div class="row-content">
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/BatteryLight.JPG" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>Батерии</h5>
-                            <a href=" Product/Battery" class="link">
-                                Батерии 18650  <br />
-                                Samsung, Sony. <br />
-                                Рециклиране и изработка на батерии. Точково заваряване.<br />
-                                Витоверти, колела, скутери, ховърборд, тротинетки, коли.
-                            </a>
-                        </div>
-                    </article>
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/ElParts.JPG" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5> Части, аксесоари, принадлежности за батерии тип 18650</h5>
-                            <a href="BatteryAccessories/BatteryAccessories" class="link">
-                                <p>BMS платки, зарядни,текстолит, шлаух, AWG кабел, конектори, шина за точковаи заварки, термо тиксо, балансни кабели, брекети и др. </p>
-                            </a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="home-row">
-                <div class="row-content">
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/Magnets.bmp" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>Неодимови магнити</h5>
-                            <a href="Product/Magnets" class="link">Неодимови магнити кръгли(шайби), правоъгълни, квадратни, различни размери. Комплекти неодимови топчета 3мм., 5мм., (216бр.), 10мм</a>
-                        </div>
-                    </article>
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/Connectors.jpg" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>Конектори</h5>
-                            <a href="Product/Connectors" class="link">IP-68 влагозащитени конектори. XT-30,XT-60,XT-90, T конектро, BigTamiya, DC 5,5/5,1 и др.</a>
-                        </div>
-                    </article>
 
-                </div>
-            </div>
-            <div class="home-row">
-                <div class="row-content">
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/CarBattery.JPG" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>Електрически комплекти за колела, части и принадлежности </h5>
-                            <a href="Product/ElectricBicycleKit" class="link">Предни, задни, средни комплекти (250W до 6000W).<br /> Контролери, дисплеи, кутии за батерии, палец газ, ръчка газ и др.</a>
-                        </div>
-                    </article>
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/StepDown.bmp" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>DC правотокови конвертори</h5>
-                            <a href="Converter/ConverterAll" class="link">Повишаващи конвертори, понижаващи конвертори, понижаващи/повишаващи конвертори</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="home-row">
-                <div class="row-content">
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/PictureFront/instruments.jpg" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>Инструменти </h5>
-                            <a href="Product/Tools" class="link">Екстрактор за винтове, гъвкав удължител, магнитен бит с ограничител, автоматичен центръ</a>
-                        </div>
-                    </article>
-                    <article class="context-group">
-                        <div class="context-group-logo">
-                            <img src="~/images/NETUM barcode scanners/NetumW2-2.jpg" />
-                        </div>
-                        <div class="context-group-text">
-                            <h5>Баркод четци</h5>
-                            <a href="Product/BarcodeScenner" class="link">NETUM - 1D 2D QR автоматичен комбиниран безжичен баркод четец</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
+
     </div>
-    @*@<img src="~/images/PictureFront/CarBattery.JPG" />@*@
+</div>
+@*@<img src="~/images/PictureFront/CarBattery.JPG" />@*@

@@ -1,16 +1,13 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
-.body {
-    padding-top: 0px;
-    padding-bottom: 20px;
-}
+
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
-.body-content {
+/*.body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 /* Carousel */
 .carousel-caption p {
@@ -42,7 +39,7 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 #logo {
-    width: 6%;
+    width:150px;
 }
 
 /*own class for buttons*/
@@ -50,12 +47,12 @@ for details on configuring this project to bundle and minify static web assets. 
     color: white;
 }
 
-    #navbarSupportedContent > ul > .nav-item > .layout-navbar-item:hover {
-        color: #96ca2d;
-        text-decoration: wavy;
-    }
+#navbarSupportedContent > ul > .nav-item > .layout-navbar-item:hover {
+    color: #96ca2d;
+    text-decoration: wavy;
+}
 
-nav.navbar.navbar-expand-lg.navbar-light {
+body > nav {
     background-color: #428309 !important;
 }
 
