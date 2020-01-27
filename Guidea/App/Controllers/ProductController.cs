@@ -79,6 +79,24 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult Тextolite()
+
+        {
+            return View();
+        }
+       
+        public IActionResult HeatResistantHose()
+
+        {
+            return View();
+        }
+
+        public IActionResult HeatResistantTape()
+
+        {
+            return View();
+        }
+
 
 
     }

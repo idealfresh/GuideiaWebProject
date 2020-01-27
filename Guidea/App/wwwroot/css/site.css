@@ -320,6 +320,18 @@ body > nav {
     background-image: url('../images/productgrouplink/BatteryIndicator.JPG');
 }
 
+#textolite-image {
+    background-image: url('../images/BatteryAccessories/Textolit.JPG');
+}
+
+#heatResistantHose-image {
+    background-image: url('../images/BatteryAccessories/Shlauh.jpg');
+}
+
+#heatResistantTape-image {
+    background-image: url('../images/BatteryAccessories/HeatResistantTape.jpg');
+}
+
 #electricBicycleKits-image {
     background-image: url('../images/productgrouplink/KitKolela.jpg');
 }
