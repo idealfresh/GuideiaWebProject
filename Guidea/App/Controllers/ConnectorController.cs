@@ -25,6 +25,11 @@ namespace App.Controllers
             return View();
         }
 
+        public IActionResult DCWithFlap()
+        {
+            return View();
+        }
+
         public IActionResult WaterproofModel1()
         {
             return View();

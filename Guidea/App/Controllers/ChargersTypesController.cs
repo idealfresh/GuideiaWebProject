@@ -27,6 +27,11 @@ namespace App.Controllers
             return View();
         }
 
+        public IActionResult Charger3S5A()
+        {
+            return View();
+        }
+
         public IActionResult Charger4S()
         {
             return View();

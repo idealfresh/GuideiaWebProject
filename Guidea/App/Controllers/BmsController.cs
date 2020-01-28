@@ -49,5 +49,10 @@ namespace App.Controllers
             return View();
         }
 
+        public IActionResult Bms300А()
+        {
+            return View();
+        }
+
     }
 }

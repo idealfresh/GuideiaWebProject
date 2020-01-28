@@ -73,7 +73,7 @@ namespace App.Controllers
         public IActionResult BicycleControllerAndDisplay()
         {
             return View();
-        }       
+        }
         public IActionResult Tools()
 
         {
@@ -84,19 +84,24 @@ namespace App.Controllers
         {
             return View();
         }
-       
+
         public IActionResult HeatResistantHose()
 
         {
             return View();
         }
 
-        public IActionResult HeatResistantTape()
+        public IActionResult BatterySocket()
 
         {
             return View();
         }
 
+        public IActionResult SpiderStand()
+
+        {
+            return View();
+        }
 
 
     }
