@@ -16,6 +16,10 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult Bms2S()
+        {
+            return View();
+        }
         public IActionResult Bms3S()
         {
             return View();

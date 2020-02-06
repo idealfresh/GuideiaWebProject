@@ -13,7 +13,7 @@ namespace App.Controllers
     public class EmailController : Controller
     {
         private const string hostMail = "info.guideia@gmail.com";
-        private const string passportMail = "Guideia_001";
+        private const string passportMail = "Guideia@001";
          [HttpPost]
         public IActionResult Send(EmailDto emailDto)
         {
@@ -47,15 +47,17 @@ namespace App.Controllers
                     EnableSsl = true,
                     Credentials = credentials
                 };
-
+                client.EnableSsl = true;
                 client.Send(mail);
             }
             catch (System.Exception e)
             {
                 resultString = e.Message;
             }
-
+            var result = resultString;
             return RedirectToAction("Contact", "Home", resultString);
+
+            
         }
     }
 }
