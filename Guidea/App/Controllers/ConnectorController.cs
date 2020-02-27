@@ -46,5 +46,9 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult Gx16()
+        {
+            return View();
+        }
     }
 }

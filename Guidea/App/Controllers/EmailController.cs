@@ -12,9 +12,10 @@ namespace App.Controllers
 {
     public class EmailController : Controller
     {
-        private const string hostMail = "info.guideia@gmail.com";
-        private const string passportMail = "Guideia@001";
-         [HttpPost]
+
+        private const string hostMail = "idealfresh11@gmail.com";//"info.guideia@gmail.com";
+        private const string passportMail = "Fresh1q2w3e4r";//"Guideia@001";
+        [HttpPost]
         public IActionResult Send(EmailDto emailDto)
         {
             var resultString = "Email Sent Successfully!";
@@ -28,8 +29,8 @@ namespace App.Controllers
                 {
                     From = new MailAddress(emailDto.Email),
                     Subject = "From Site Contact Form",
-                    Body = emailDto.Message.Compose(emailDto.Name,emailDto.Phone,emailDto.Email)
-                    
+                    Body = emailDto.Message.Compose(emailDto.Name, emailDto.Phone, emailDto.Email)
+
                 };
 
                 mail.IsBodyHtml = false;
@@ -40,24 +41,25 @@ namespace App.Controllers
                 // Smtp client
                 var client = new SmtpClient()
                 {
-                    Port = 587,
+                    Port = 465,//587,
                     DeliveryMethod = SmtpDeliveryMethod.Network,
                     UseDefaultCredentials = false,
                     Host = "smtp.gmail.com",
                     EnableSsl = true,
                     Credentials = credentials
                 };
-                client.EnableSsl = true;
+
                 client.Send(mail);
             }
             catch (System.Exception e)
             {
                 resultString = e.Message;
+
             }
             var result = resultString;
             return RedirectToAction("Contact", "Home", resultString);
 
-            
+
         }
     }
 }

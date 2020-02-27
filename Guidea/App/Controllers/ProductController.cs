@@ -102,6 +102,16 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult ThermalTape()
+
+        {
+            return View();
+        }
+        public IActionResult BraidsForCables()
+
+        {
+            return View();
+        }
 
 
     }

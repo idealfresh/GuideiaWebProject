@@ -208,6 +208,10 @@ body > nav {
     background-image: url('../images/Connectors/RCConnectors/5.5mm/5.5mm - Front.jpg');
 }
 
+#gx16-image {
+    background-image: url('../images/connectors/gx16/gx16.jpg');
+}
+
 #bms-image {
     background-image: url('../images/productgrouplink/BMS.jpg');
 }
@@ -351,6 +355,14 @@ body > nav {
 
 #heatResistantTape-image {
     background-image: url('../images/BatteryAccessories/HeatResistantTape.jpg');
+}
+
+#thermal-tape-image {
+    background-image: url('../images/batteryaccessories/тhermaltape/thermaltape.jpg');
+}
+
+#braids-for-cables-image {
+    background-image: url('../images/batteryaccessories/braidsforcables/braidsforcables.jpg');
 }
 
 #electricBicycleKits-image {
