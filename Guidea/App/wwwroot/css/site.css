@@ -163,6 +163,13 @@ body > nav {
     background-image: url('../images/ChargerPictures/72V Battery charger 4A/20S4A-1.JPG');
 }
 
+#imaxB6-image {
+    background-image: url('../images/ChargerPictures/Imax B6/ImaxB6.jpg');
+}
+#imaxB3-image {
+    background-image: url('../images/chargerpictures/imaxb3/imaxb3.jpg');   
+}
+
 
 #connector-image {
     background-image: url('../images/productgrouplink/Connectors.jpg');

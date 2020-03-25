@@ -78,5 +78,13 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult ImaxB3()        
+        {
+            return View();
+        }
+        public IActionResult ImaxB6()
+        {
+            return View();
+        }
     }
 }
