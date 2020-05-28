@@ -20,5 +20,9 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult PassSensor()
+        {
+            return View();
+        }
     }
 }

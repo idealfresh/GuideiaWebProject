@@ -195,6 +195,10 @@ body > nav {
     background-image: url('../images/Connectors/WaterproofConnectors/Var 4-1.JPG');
 }
 
+#XT30-connector-image {
+    background-image: url('../images/connectors/rcconnectors/xt30/xt30.jpg');
+}
+
 #XT60-connector-image {
     background-image: url('../images/Connectors/RCConnectors/XT60/XT60-1.jpg');
 }
@@ -248,6 +252,9 @@ body > nav {
 
 #bms10S-image {
     background-image: url('../images/BMS/10S BMS - 35A/BMS - 10S.jpg');
+}
+#bms10S-15А-image {
+    background-image: url('../images/BMS/10SBMS-15A/10SBMS-15A-2.jpg');  
 }
 
 #Bms10Sto16S-image {
@@ -410,6 +417,10 @@ body > nav {
 
 #bicycle-accessories-image {
     background-image: url('../images/Controllers and displays/BikeAccessories/AllProducts.JPG')
+}
+
+#passSensor-image {
+    background-image: url('../images/e-bike kits/pass sensors/pass.jpg');
 }
 
 #magneticBall-image {

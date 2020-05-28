@@ -57,6 +57,10 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult Bms10S15A()
+        {
+            return View();
+        }
 
     }
 }

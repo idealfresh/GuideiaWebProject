@@ -16,6 +16,10 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult XT30Connector()
+        {
+            return View();
+        }
         public IActionResult TConnector()
         {
             return View();
