@@ -24,5 +24,9 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult TelescopicMagnet()
+        {
+            return View();
+        }
     }
 }

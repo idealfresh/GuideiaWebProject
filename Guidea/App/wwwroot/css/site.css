@@ -272,6 +272,9 @@ body > nav {
 #bms300А-image {
     background-image: url('../images/BMS/300ABMS/300ABMS.jpg');
 }
+#bms8S20S400A-image {
+    background-image: url('../images/bms/8-20с-400а bms/8-20sbms-400a-1.jpg');   
+}
 #BatterySocket-image {
     background-image: url('../images/BatteryAccessories/BatterySocket.jpg');
 }
@@ -445,6 +448,12 @@ body > nav {
 
 #drywall-screwdriver-bit-image {
     background-image: url('../images/Instruments/Drywall-screwdriver-bit/DrywallScrewdriverbit.jpg');
+}
+#zcross-image {   
+    background-image: url('../images/zcross/saa_3143.jpg');
+}
+#telescopicMagnet-image {
+    background-image: url('../images/instruments/telescopicmagnet/telescopicmagnet1.jpg');
 }
 
 

@@ -61,6 +61,10 @@ namespace App.Controllers
         {
             return View();
         }
+        public IActionResult Bms8S20S400()
+        {
+            return View();
+        }
 
     }
 }

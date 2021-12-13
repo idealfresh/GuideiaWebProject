@@ -91,6 +91,12 @@ namespace App.Controllers
             return View();
         }
 
+        public IActionResult HeatResistantTape()
+
+        {
+            return View();
+        }
+
         public IActionResult BatterySocket()
 
         {
@@ -108,6 +114,11 @@ namespace App.Controllers
             return View();
         }
         public IActionResult BraidsForCables()
+
+        {
+            return View();
+        }
+        public IActionResult ZCross()
 
         {
             return View();
